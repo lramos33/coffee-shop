@@ -19,5 +19,5 @@
     ],
     "rules": {
     },
-    "ignorePatterns": ["vite.config.js"]
+    "ignorePatterns": ["vite.config.js", "mixitup.min.js"]
 }
