@@ -2,6 +2,7 @@ import React from 'react';
 import useScript from './hooks/useScript';
 
 import Header from './components/Header';
+import Home from './components/Home';
 
 import '../public/App.css';
 
@@ -12,6 +13,9 @@ function App() {
   return (
     <>
       <Header />
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
