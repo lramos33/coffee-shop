@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <a href="#" className="nav__logo">
+        <a href="#home" className="nav__logo">
           <img src="./Images/logo.png" alt="" className="nav__logo-img" />
           Coffee.
         </a>
@@ -12,10 +12,10 @@ function Header() {
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">Home</a>
+              <a href="#home" className="nav__link active-link">Início</a>
             </li>
             <li className="nav__item">
-              <a href="#products" className="nav__link">Products</a>
+              <a href="#products" className="nav__link">Produtos</a>
             </li>
             <li className="nav__item">
               <a href="#premium" className="nav__link">Premium</a>
