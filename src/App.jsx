@@ -26,6 +26,10 @@ function App() {
         <Blog />
       </main>
       <Footer />
+
+      <a href="#home" className="scrollup" id="scroll-up">
+        <i className="bx bx-up-arrow-alt" />
+      </a>
     </>
   );
 }
