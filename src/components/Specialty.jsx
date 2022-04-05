@@ -27,7 +27,7 @@ function Specialty() {
           <div className="specialty__group specialty__line">
             <img src="./Images/specialty2.png" alt="" className="specialty__img" />
 
-            <h3 className="specialty__title">Delicious Cookies</h3>
+            <h3 className="specialty__title">Cookies Maravilhosos</h3>
             <p className="specialty__description">
               Aproveite nossos cafés com deliciosos cookies.
             </p>
@@ -36,7 +36,7 @@ function Specialty() {
           <div className="specialty__group">
             <img src="./Images/specialty3.png" alt="" className="specialty__img" />
 
-            <h3 className="specialty__title">Aproveite em casa</h3>
+            <h3 className="specialty__title">Aproveite em Casa</h3>
             <p className="specialty__description">
               Desfrute do melhor café no conforto da sua casa.
             </p>
