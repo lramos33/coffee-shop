@@ -127,6 +127,17 @@ button {
   background-color: var(--first-color);
 }
 
+/*=============== BUTTON ===============*/
+.button {
+  display: inline-block;
+  background-color: var(--black-color);
+  color: #fff;
+  padding: 1rem 1.75rem;
+  border-radius: .25rem;
+  font-size: var(--normal-font-size);
+  text-transform: uppercase;
+}
+
 /*=============== HEADER & NAV ===============*/
 .header {
   width: 100%;
@@ -308,4 +319,36 @@ button {
   100% {
     transform: translateY(0);
   }
+}
+
+/*=============== SPECIALTY ===============*/
+.specialty__button {
+  margin-left: 1.25rem;
+}
+
+.specialty__category {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 200px;
+  justify-content: center;
+  row-gap: 2.5rem;
+}
+
+.specialty__img {
+  width: 60px;
+  margin-bottom: 1rem;
+  transition: .4s;
+}
+
+.specialty__group {
+  text-align: center;
+}
+
+.specialty__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: .25rem;
+}
+
+.specialty__group:hover .specialty__img {
+  transform: translateY(-.25rem);
 }

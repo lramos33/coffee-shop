@@ -3,6 +3,7 @@ import useScript from './hooks/useScript';
 
 import Header from './components/Header';
 import Home from './components/Home';
+import Specialty from './components/Specialty';
 
 import '../public/App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <main>
         <Home />
+        <Specialty />
       </main>
     </>
   );
