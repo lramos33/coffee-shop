@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Specialty from './components/Specialty';
 import Products from './components/Products';
 import Quality from './components/Quality';
+import Blog from './components/Blog';
 
 import '../public/App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Specialty />
         <Products />
         <Quality />
+        <Blog />
       </main>
     </>
   );
