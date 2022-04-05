@@ -9,6 +9,7 @@ import Quality from './components/Quality';
 import Blog from './components/Blog';
 
 import '../public/App.css';
+import Footer from './components/Footer';
 
 function App() {
   useScript('./JavaScript/mixitup.min.js');
@@ -24,6 +25,7 @@ function App() {
         <Quality />
         <Blog />
       </main>
+      <Footer />
     </>
   );
 }
