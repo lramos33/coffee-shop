@@ -7,9 +7,9 @@ import Specialty from './components/Specialty';
 import Products from './components/Products';
 import Quality from './components/Quality';
 import Blog from './components/Blog';
+import Footer from './components/Footer';
 
 import '../public/App.css';
-import Footer from './components/Footer';
 
 function App() {
   useScript('./JavaScript/mixitup.min.js');
